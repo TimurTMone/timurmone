@@ -31,7 +31,7 @@ export function Header() {
             href="#"
             className="font-mono text-lg font-bold tracking-tight hover:text-accent-cyan transition-colors"
           >
-            alt<span className="text-accent-cyan">.</span>ai/lab
+            altai<span className="text-accent-cyan">.</span>labs
           </a>
 
           {/* Desktop Nav */}

@@ -19,7 +19,7 @@ export function Hero() {
         >
           <span className="inline-flex items-center gap-2 px-4 py-1.5 text-xs font-mono font-medium tracking-wider uppercase text-accent-cyan bg-accent-cyan-glow border border-accent-cyan/20 rounded-full">
             <span className="w-1.5 h-1.5 rounded-full bg-accent-cyan animate-pulse" />
-            Alt AI Lab — AI Software Factory
+            Altai Labs — AI Software Factory
           </span>
         </motion.div>
 

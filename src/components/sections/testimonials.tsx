@@ -15,7 +15,7 @@ const principles = [
     icon: Target,
     title: "Underserved beats oversaturated.",
     body:
-      "Every Alt AI Lab venture targets an industry that Silicon Valley overlooks. Less competition. Higher intent. Customers starving for the product we build.",
+      "Every Altai Labs venture targets an industry that Silicon Valley overlooks. Less competition. Higher intent. Customers starving for the product we build.",
   },
   {
     icon: Brain,

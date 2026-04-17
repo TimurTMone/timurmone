@@ -17,7 +17,7 @@ export function About() {
               </span>
 
               <h2 className="text-3xl md:text-4xl font-bold tracking-tight">
-                Alt AI Lab is a factory for AI-native companies.
+                Altai Labs is a factory for AI-native companies.
               </h2>
 
               <div className="mt-6 space-y-4 text-muted-foreground leading-relaxed">
@@ -28,7 +28,7 @@ export function About() {
                   systems that rewrite how entire industries function.
                 </p>
                 <p>
-                  Every Alt AI Lab venture begins with the same question: where
+                  Every Altai Labs venture begins with the same question: where
                   is the largest market still running on spreadsheets,
                   paperwork, and brokered trust? That&apos;s where we move. Real
                   estate. Hospitality. Agriculture. Education. Industries

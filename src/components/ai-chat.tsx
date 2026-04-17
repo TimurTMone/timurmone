@@ -11,7 +11,7 @@ interface Message {
 }
 
 const SUGGESTIONS = [
-  "What is Alt AI Lab?",
+  "What is Altai Labs?",
   "How do I co-found a venture with you?",
   "Tell me about Yurtah.AI",
   "Can I invest in the lab?",
@@ -132,7 +132,7 @@ export function AIChat() {
               {messages.length === 0 && (
                 <div className="space-y-4">
                   <div className="bg-muted/50 rounded-xl px-4 py-3 text-sm text-muted-foreground">
-                    Ask anything about Alt AI Lab — our ventures, thesis, how
+                    Ask anything about Altai Labs — our ventures, thesis, how
                     we collaborate. This assistant runs on Claude. It&apos;s
                     the kind of thing we build.
                   </div>

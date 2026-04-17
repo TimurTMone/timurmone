@@ -1,6 +1,6 @@
 export const SITE = {
-  name: "Alt AI Lab",
-  title: "Alt AI Lab — AI Software Factory",
+  name: "Altai Labs",
+  title: "Altai Labs — AI Software Factory",
   description:
     "We don't take projects. We build companies. 12 AI-native ventures shipped. Zero VC.",
   url: "https://timurmone.com",

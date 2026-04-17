@@ -16,13 +16,13 @@ const geistMono = Geist_Mono({
 
 export const metadata: Metadata = {
   title: {
-    default: "Alt AI Lab — AI Software Factory",
-    template: "%s | Alt AI Lab",
+    default: "Altai Labs — AI Software Factory",
+    template: "%s | Altai Labs",
   },
   description:
     "We don't take projects. We build companies. An independent AI software factory shipping AI-native ventures into underserved industries. 12 built. Zero VC.",
   keywords: [
-    "Alt AI Lab",
+    "Altai Labs",
     "AI Software Factory",
     "AI Venture Studio",
     "Vertical AI",
@@ -31,18 +31,18 @@ export const metadata: Metadata = {
     "Claude API",
     "Timur Mone",
   ],
-  authors: [{ name: "Alt AI Lab" }],
+  authors: [{ name: "Altai Labs" }],
   openGraph: {
     type: "website",
     locale: "en_US",
-    title: "Alt AI Lab — AI Software Factory",
+    title: "Altai Labs — AI Software Factory",
     description:
       "We don't take projects. We build companies. 12 AI-native ventures shipped. Zero VC.",
-    siteName: "Alt AI Lab",
+    siteName: "Altai Labs",
   },
   twitter: {
     card: "summary_large_image",
-    title: "Alt AI Lab — AI Software Factory",
+    title: "Altai Labs — AI Software Factory",
     description:
       "We don't take projects. We build companies.",
   },

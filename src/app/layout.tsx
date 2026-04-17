@@ -1,75 +1,65 @@
 import type { Metadata } from "next";
-import { Geist, Geist_Mono } from "next/font/google";
-import { Providers } from "@/components/providers";
-import { AIChat } from "@/components/ai-chat";
+import { Inter, Instrument_Serif, JetBrains_Mono } from "next/font/google";
 import "./globals.css";
 
-const geistSans = Geist({
-  variable: "--font-geist-sans",
+const inter = Inter({
+  variable: "--font-inter",
   subsets: ["latin"],
+  display: "swap",
 });
 
-const geistMono = Geist_Mono({
-  variable: "--font-geist-mono",
+const serif = Instrument_Serif({
+  variable: "--font-instrument-serif",
   subsets: ["latin"],
+  weight: "400",
+  style: ["normal", "italic"],
+  display: "swap",
+});
+
+const mono = JetBrains_Mono({
+  variable: "--font-jetbrains-mono",
+  subsets: ["latin"],
+  display: "swap",
 });
 
 export const metadata: Metadata = {
-  title: {
-    default: "Altai Labs — AI Software Factory",
-    template: "%s | Altai Labs",
-  },
+  title: "Timur Mone",
   description:
-    "We don't take projects. We build companies. An independent AI software factory shipping AI-native ventures into underserved industries. 12 built. Zero VC.",
+    "Founder of Altai Labs. I build AI-native companies in industries no one else touches.",
   keywords: [
-    "Altai Labs",
-    "AI Software Factory",
-    "AI Venture Studio",
-    "Vertical AI",
-    "AI Native Companies",
-    "AI Agents",
-    "Claude API",
     "Timur Mone",
+    "Altai Labs",
+    "AI Automation",
+    "Founder",
+    "AI Engineer",
   ],
-  authors: [{ name: "Altai Labs" }],
+  authors: [{ name: "Timur Mone" }],
   openGraph: {
     type: "website",
     locale: "en_US",
-    title: "Altai Labs — AI Software Factory",
+    title: "Timur Mone",
     description:
-      "We don't take projects. We build companies. 12 AI-native ventures shipped. Zero VC.",
-    siteName: "Altai Labs",
+      "Founder of Altai Labs. I build AI-native companies in industries no one else touches.",
+    siteName: "Timur Mone",
   },
   twitter: {
-    card: "summary_large_image",
-    title: "Altai Labs — AI Software Factory",
+    card: "summary",
+    title: "Timur Mone",
     description:
-      "We don't take projects. We build companies.",
+      "Founder of Altai Labs. I build AI-native companies.",
   },
-  robots: {
-    index: true,
-    follow: true,
-  },
+  robots: { index: true, follow: true },
 };
 
 export default function RootLayout({
   children,
-}: Readonly<{
-  children: React.ReactNode;
-}>) {
+}: Readonly<{ children: React.ReactNode }>) {
   return (
     <html
       lang="en"
-      className={`${geistSans.variable} ${geistMono.variable} h-full antialiased`}
-      suppressHydrationWarning
+      className={`${inter.variable} ${serif.variable} ${mono.variable}`}
     >
-      <body className="min-h-full flex flex-col">
-        <Providers>
-          {children}
-          <AIChat />
-        </Providers>
-        <div className="noise" />
-      </body>
+      <body className="min-h-screen">{children}</body>
     </html>
   );
 }

@@ -27,7 +27,7 @@ export function TrustBar() {
             {/* Stats */}
             <div className="flex items-center gap-6 text-sm">
               <span className="text-muted-foreground">
-                <strong className="text-foreground">12+</strong> products
+                <strong className="text-foreground">12</strong> ventures
               </span>
               <span className="text-border">|</span>
               <span className="text-muted-foreground">
@@ -35,7 +35,7 @@ export function TrustBar() {
               </span>
               <span className="text-border">|</span>
               <span className="text-muted-foreground">
-                <strong className="text-foreground">$500K+</strong> revenue
+                <strong className="text-foreground">0</strong> VC dollars
               </span>
             </div>
           </div>

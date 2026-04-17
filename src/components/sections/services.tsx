@@ -8,13 +8,13 @@ import { cn } from "@/lib/utils";
 
 export function Services() {
   return (
-    <section id="services" className="section-padding">
+    <section id="collaborate" className="section-padding">
       <div className="max-w-6xl mx-auto">
         <ScrollReveal>
           <SectionHeading
-            badge="Services"
-            title="How I Can Help You"
-            subtitle="From a half-day strategy session to a full product build. Pick the engagement that fits."
+            badge="Collaborate"
+            title="Three Ways to Build With Us"
+            subtitle="We don't sell hours. We build ventures. Choose the shape of the partnership."
           />
         </ScrollReveal>
 

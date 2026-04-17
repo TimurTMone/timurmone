@@ -15,9 +15,9 @@ export function FeaturedCases() {
       <div className="max-w-6xl mx-auto">
         <ScrollReveal>
           <SectionHeading
-            badge="Selected Work"
-            title="Real Products. Real Revenue."
-            subtitle="Every project solves a real problem for a real business. No side projects. No demos. Shipped code running in production."
+            badge="Our Ventures"
+            title="What We&apos;ve Built"
+            subtitle="Not client work. Not case studies. Ventures we designed, built, and shipped. Each one is a working thesis about an industry waiting to be rebuilt."
           />
         </ScrollReveal>
 
@@ -105,7 +105,7 @@ export function FeaturedCases() {
               href="#all-work"
               className="group inline-flex items-center gap-2 text-sm font-medium text-muted-foreground hover:text-foreground transition-colors"
             >
-              View all 12 projects
+              View all 12 ventures
               <ArrowRight className="w-4 h-4 group-hover:translate-x-1 transition-transform" />
             </a>
           </div>

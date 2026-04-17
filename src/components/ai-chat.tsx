@@ -11,10 +11,10 @@ interface Message {
 }
 
 const SUGGESTIONS = [
-  "What can your team build?",
+  "What is Alt AI Lab?",
+  "How do I co-found a venture with you?",
   "Tell me about Yurtah.AI",
-  "How does AI pricing work?",
-  "What's your tech stack?",
+  "Can I invest in the lab?",
 ];
 
 export function AIChat() {
@@ -132,9 +132,9 @@ export function AIChat() {
               {messages.length === 0 && (
                 <div className="space-y-4">
                   <div className="bg-muted/50 rounded-xl px-4 py-3 text-sm text-muted-foreground">
-                    This assistant knows every project we&apos;ve shipped, our
-                    tech stack, and how we work. Ask anything — or pick a
-                    question below.
+                    Ask anything about Alt AI Lab — our ventures, thesis, how
+                    we collaborate. This assistant runs on Claude. It&apos;s
+                    the kind of thing we build.
                   </div>
 
                   {/* Suggestions */}
@@ -209,7 +209,7 @@ export function AIChat() {
                 type="text"
                 value={input}
                 onChange={(e) => setInput(e.target.value)}
-                placeholder="Ask about our projects, stack, or services..."
+                placeholder="Ask about the lab, ventures, or partnerships..."
                 disabled={loading}
                 className="flex-1 px-3 py-2 bg-muted/50 border border-border rounded-lg text-sm placeholder:text-muted-foreground focus:outline-none focus:ring-1 focus:ring-accent-cyan/50 disabled:opacity-50 transition-all"
               />

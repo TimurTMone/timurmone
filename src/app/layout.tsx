@@ -16,36 +16,35 @@ const geistMono = Geist_Mono({
 
 export const metadata: Metadata = {
   title: {
-    default: "Timur Mone — AI Automation Engineer",
-    template: "%s | Timur Mone",
+    default: "Alt AI Lab — AI Software Factory",
+    template: "%s | Alt AI Lab",
   },
   description:
-    "We build AI operating systems for industries no one else touches. 12+ shipped products.",
+    "We don't take projects. We build companies. An independent AI software factory shipping AI-native ventures into underserved industries. 12 built. Zero VC.",
   keywords: [
-    "AI Automation Engineer",
-    "AI Development",
+    "Alt AI Lab",
+    "AI Software Factory",
+    "AI Venture Studio",
+    "Vertical AI",
+    "AI Native Companies",
     "AI Agents",
-    "Vertical SaaS",
-    "Flutter Developer",
-    "Next.js Developer",
     "Claude API",
-    "AI Products",
-    "Full Stack Engineer",
+    "Timur Mone",
   ],
-  authors: [{ name: "Timur Mone" }],
+  authors: [{ name: "Alt AI Lab" }],
   openGraph: {
     type: "website",
     locale: "en_US",
-    title: "Timur Mone — AI Automation Engineer",
+    title: "Alt AI Lab — AI Software Factory",
     description:
-      "We build AI operating systems for industries no one else touches. 12+ shipped products.",
-    siteName: "Timur Mone",
+      "We don't take projects. We build companies. 12 AI-native ventures shipped. Zero VC.",
+    siteName: "Alt AI Lab",
   },
   twitter: {
     card: "summary_large_image",
-    title: "Timur Mone — AI Automation Engineer",
+    title: "Alt AI Lab — AI Software Factory",
     description:
-      "We build AI operating systems for industries no one else touches.",
+      "We don't take projects. We build companies.",
   },
   robots: {
     index: true,

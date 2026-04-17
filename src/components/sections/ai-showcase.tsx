@@ -43,13 +43,13 @@ const demos = [
 
 export function AIShowcase() {
   return (
-    <section className="section-padding bg-muted/30">
+    <section id="rd" className="section-padding bg-muted/30">
       <div className="max-w-6xl mx-auto">
         <ScrollReveal>
           <SectionHeading
-            badge="AI Automation"
-            title="AI That Actually Works"
-            subtitle="Not chatbots. Not GPT wrappers. Real AI agents that run business operations and generate revenue."
+            badge="R&amp;D in Production"
+            title="From Lab to Live"
+            subtitle="Not demos. Not chatbots. Not GPT wrappers. Real AI agents researched, engineered, and deployed into production — running inside our ventures right now."
           />
         </ScrollReveal>
 

@@ -1,8 +1,8 @@
 export const SITE = {
-  name: "Timur Mone",
-  title: "Timur Mone — AI Automation Engineer",
+  name: "Alt AI Lab",
+  title: "Alt AI Lab — AI Software Factory",
   description:
-    "We build AI operating systems for industries no one else touches. 12+ shipped products.",
+    "We don't take projects. We build companies. 12 AI-native ventures shipped. Zero VC.",
   url: "https://timurmone.com",
   email: "timur.mone@gmail.com",
   github: "https://github.com/TimurTMone",
@@ -11,10 +11,10 @@ export const SITE = {
 };
 
 export const NAV_LINKS = [
-  { label: "Services", href: "#services" },
-  { label: "Work", href: "#work" },
-  { label: "About", href: "#about" },
-  { label: "Contact", href: "#contact" },
+  { label: "Ventures", href: "#work" },
+  { label: "Thesis", href: "#about" },
+  { label: "R&D", href: "#rd" },
+  { label: "Collaborate", href: "#contact" },
 ];
 
 export const TECH_STACK = [
@@ -29,8 +29,8 @@ export const TECH_STACK = [
 ];
 
 export const STATS = [
-  { label: "Products Shipped", value: 12 },
-  { label: "Industries", value: 7 },
-  { label: "Revenue Generated", value: 500, suffix: "K+" },
-  { label: "VC Dollars", value: 0 },
+  { label: "Ventures Built", value: 12 },
+  { label: "Industries Entered", value: 7 },
+  { label: "Lines of Code Shipped", value: 500, suffix: "K+" },
+  { label: "VC Dollars Taken", value: 0 },
 ];

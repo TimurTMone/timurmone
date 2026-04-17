@@ -31,7 +31,7 @@ export function Header() {
             href="#"
             className="font-mono text-lg font-bold tracking-tight hover:text-accent-cyan transition-colors"
           >
-            timur<span className="text-accent-cyan">.</span>mone
+            alt<span className="text-accent-cyan">.</span>ai/lab
           </a>
 
           {/* Desktop Nav */}
@@ -50,7 +50,7 @@ export function Header() {
               href="#contact"
               className="px-4 py-2 text-sm font-medium bg-accent-cyan text-black rounded-lg hover:bg-accent-cyan/90 transition-colors"
             >
-              Let&apos;s Build
+              Build With Us
             </a>
           </div>
 
@@ -98,7 +98,7 @@ export function Header() {
                 onClick={() => setMobileOpen(false)}
                 className="mt-2 px-4 py-3 text-sm font-medium text-center bg-accent-cyan text-black rounded-lg hover:bg-accent-cyan/90 transition-colors"
               >
-                Let&apos;s Build
+                Build With Us
               </a>
             </div>
           </motion.div>

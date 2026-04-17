@@ -27,9 +27,9 @@ export function CaseGrid() {
       <div className="max-w-6xl mx-auto">
         <ScrollReveal>
           <SectionHeading
-            badge="All Projects"
-            title="Complete Portfolio"
-            subtitle="Every AI product I've shipped — from national park apps to film industry casting engines."
+            badge="Portfolio"
+            title="The Full Venture Portfolio"
+            subtitle="Twelve AI-native companies built inside the lab. Each one is a bet on an industry ready to be rebuilt."
           />
         </ScrollReveal>
 

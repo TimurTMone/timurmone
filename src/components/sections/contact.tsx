@@ -14,20 +14,20 @@ import {
 import { SITE } from "@/lib/constants";
 
 const budgetRanges = [
-  "Under $10K",
-  "$10K – $25K",
+  "Equity partnership",
   "$25K – $80K",
   "$80K – $200K",
-  "$200K+",
+  "$200K – $500K",
+  "$500K+",
+  "Investment inquiry",
 ];
 
 const projectTypes = [
-  "AI Product Build",
-  "AI Strategy Session",
-  "AI Automation Retainer",
-  "Custom AI Agent",
-  "Mobile App (iOS/Android)",
-  "Full-Stack Platform",
+  "Co-found a venture",
+  "Commission a venture",
+  "Invest in the lab",
+  "Industry partnership",
+  "Advisory / speaking",
   "Other",
 ];
 
@@ -67,9 +67,9 @@ export function Contact() {
       <div className="max-w-6xl mx-auto">
         <ScrollReveal>
           <SectionHeading
-            badge="Get in Touch"
-            title="Let's Build Something"
-            subtitle="Tell us about your project. We respond within 24 hours with a concrete plan and timeline."
+            badge="Collaborate"
+            title="Build With The Lab"
+            subtitle="Co-founder, commissioner, or investor — if you see an AI venture worth building, we&apos;re listening. Response within 24 hours."
           />
         </ScrollReveal>
 
@@ -119,7 +119,7 @@ export function Contact() {
                 <div className="grid sm:grid-cols-2 gap-5">
                   <div>
                     <label className="block text-sm font-medium mb-2">
-                      Project Type
+                      Collaboration Type
                     </label>
                     <select
                       name="projectType"
@@ -136,7 +136,7 @@ export function Contact() {
                   </div>
                   <div>
                     <label className="block text-sm font-medium mb-2">
-                      Budget Range
+                      Scope
                     </label>
                     <select
                       name="budget"
@@ -156,13 +156,13 @@ export function Contact() {
                 {/* Message */}
                 <div>
                   <label className="block text-sm font-medium mb-2">
-                    Tell me about your project
+                    Tell us about the venture
                   </label>
                   <textarea
                     name="message"
                     required
                     rows={5}
-                    placeholder="What problem are you solving? What industry? Any timeline or technical requirements?"
+                    placeholder="What industry? What AI thesis? What's the opportunity nobody else sees?"
                     className="w-full px-4 py-3 bg-card border border-border rounded-lg text-sm placeholder:text-muted-foreground focus:outline-none focus:ring-1 focus:ring-accent-cyan/50 transition-all resize-none"
                   />
                 </div>
@@ -262,11 +262,11 @@ export function Contact() {
                     <span className="relative inline-flex rounded-full h-2.5 w-2.5 bg-green-500"></span>
                   </span>
                   <span className="text-sm font-medium">
-                    Available for new projects
+                    Taking new ventures
                   </span>
                 </div>
                 <p className="text-xs text-muted-foreground">
-                  Currently accepting 2 new engagements for Q2 2026.
+                  2 founder slots open. 3 commissioned builds available for Q2.
                 </p>
               </div>
             </div>

@@ -19,7 +19,7 @@ export function Hero() {
         >
           <span className="inline-flex items-center gap-2 px-4 py-1.5 text-xs font-mono font-medium tracking-wider uppercase text-accent-cyan bg-accent-cyan-glow border border-accent-cyan/20 rounded-full">
             <span className="w-1.5 h-1.5 rounded-full bg-accent-cyan animate-pulse" />
-            12+ AI products shipped globally
+            Alt AI Lab — AI Software Factory
           </span>
         </motion.div>
 
@@ -30,11 +30,10 @@ export function Hero() {
           transition={{ duration: 0.6, delay: 0.1 }}
           className="mt-8 text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold tracking-tight leading-[1.1]"
         >
-          We build{" "}
+          We don&apos;t take projects.{" "}
           <span className="text-transparent bg-clip-text bg-gradient-to-r from-accent-cyan to-[#8b5cf6]">
-            AI operating systems
-          </span>{" "}
-          for industries no one else touches.
+            We build companies.
+          </span>
         </motion.h1>
 
         {/* Subtitle */}
@@ -44,9 +43,11 @@ export function Hero() {
           transition={{ duration: 0.6, delay: 0.2 }}
           className="mt-6 text-lg sm:text-xl text-muted-foreground max-w-3xl mx-auto leading-relaxed"
         >
-          We design and ship AI systems that run real businesses.
-          Multi-platform. Multi-language. Production-grade. If your industry
-          still runs on spreadsheets and WhatsApp — we fix that.
+          An independent AI software factory. We research, design, and ship
+          AI-native ventures into industries the world&apos;s tech giants
+          ignore. 12 products shipped. Zero VC. One thesis: software
+          multiplied by AI rewrites every industry — and we&apos;re the
+          builders.
         </motion.p>
 
         {/* CTAs */}
@@ -60,14 +61,14 @@ export function Hero() {
             href="#work"
             className="group flex items-center gap-2 px-6 py-3 text-sm font-medium bg-accent-cyan text-black rounded-lg hover:bg-accent-cyan/90 transition-all"
           >
-            See My Work
+            See Our Ventures
             <ArrowDown className="w-4 h-4 group-hover:translate-y-0.5 transition-transform" />
           </a>
           <a
             href="#contact"
             className="group flex items-center gap-2 px-6 py-3 text-sm font-medium border border-border rounded-lg hover:bg-muted transition-all"
           >
-            Let&apos;s Talk
+            Build With Us
             <ArrowRight className="w-4 h-4 group-hover:translate-x-0.5 transition-transform" />
           </a>
         </motion.div>

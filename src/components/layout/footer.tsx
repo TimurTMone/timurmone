@@ -19,10 +19,10 @@ export function Footer() {
               href="#"
               className="font-mono text-lg font-bold tracking-tight"
             >
-              timur<span className="text-accent-cyan">.</span>mone
+              alt<span className="text-accent-cyan">.</span>ai/lab
             </a>
             <p className="mt-1 text-sm text-muted-foreground">
-              AI Automation Engineer
+              AI Software Factory
             </p>
           </div>
 
@@ -57,7 +57,7 @@ export function Footer() {
         </div>
 
         <div className="mt-8 pt-8 border-t border-border flex flex-col sm:flex-row items-center justify-between gap-4 text-sm text-muted-foreground">
-          <p>&copy; {new Date().getFullYear()} Timur Mone. All rights reserved.</p>
+          <p>&copy; {new Date().getFullYear()} Alt AI Lab. Built by builders.</p>
           <p className="font-mono text-xs">
             Built with Next.js &middot; Deployed on Vercel
           </p>

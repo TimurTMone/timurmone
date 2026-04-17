@@ -13,32 +13,38 @@ export function About() {
           <ScrollReveal>
             <div>
               <span className="inline-block mb-4 px-4 py-1.5 text-xs font-mono font-medium tracking-wider uppercase text-accent-cyan bg-accent-cyan-glow border border-accent-cyan/20 rounded-full">
-                About
+                Our Thesis
               </span>
 
               <h2 className="text-3xl md:text-4xl font-bold tracking-tight">
-                We automate entire industries with AI.
+                Alt AI Lab is a factory for AI-native companies.
               </h2>
 
               <div className="mt-6 space-y-4 text-muted-foreground leading-relaxed">
                 <p>
-                  A small team of full-stack engineers and AI specialists who
-                  build vertical operating systems — the kind of software that
-                  runs entire business operations, not just features within them.
-                  Real estate. Hospitality. Agriculture. Education. Industries
-                  that Big Tech doesn&apos;t touch.
+                  We are builders. Founders. Generals of full-stack engineering
+                  and AI vibecoding. We do not sell hours. We do not write
+                  decks. We ship products — the kind of vertical operating
+                  systems that rewrite how entire industries function.
                 </p>
                 <p>
-                  12+ AI-powered products shipped. No VC. No bloated agency
-                  overhead. We understand the business first, then engineer the
-                  system. That&apos;s why clients come back — and why we deliver
-                  what most teams can&apos;t scope in the time it takes them to
-                  write the proposal.
+                  Every Alt AI Lab venture begins with the same question: where
+                  is the largest market still running on spreadsheets,
+                  paperwork, and brokered trust? That&apos;s where we move. Real
+                  estate. Hospitality. Agriculture. Education. Industries
+                  hiding in plain sight from Silicon Valley.
                 </p>
                 <p>
-                  The philosophy is straightforward: AI is the multiplier. We
-                  don&apos;t build dashboards — we build AI agents that make
-                  dashboards obsolete.
+                  We believe AI is not a feature. It&apos;s a new substrate —
+                  cheaper, faster, more intelligent than any layer of software
+                  that came before. We use it to collapse ten-person teams into
+                  one product. To turn voice notes into contracts. Photos into
+                  valuations. Industries into software.
+                </p>
+                <p className="text-foreground font-medium">
+                  We are small on purpose. Fast on purpose. Independent on
+                  purpose. We don&apos;t raise rounds — we raise revenue. And
+                  we ship.
                 </p>
               </div>
 
@@ -49,10 +55,8 @@ export function About() {
                   <span className="relative inline-flex rounded-full h-2.5 w-2.5 bg-green-500"></span>
                 </span>
                 <span className="text-muted-foreground">
-                  Currently shipping:{" "}
-                  <strong className="text-foreground">3 new products</strong>{" "}
-                  &middot;{" "}
-                  <strong className="text-foreground">Accepting 2 new clients</strong>
+                  In the lab right now:{" "}
+                  <strong className="text-foreground">3 ventures in active R&amp;D</strong>
                 </span>
               </div>
             </div>
